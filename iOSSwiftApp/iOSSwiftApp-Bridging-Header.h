@@ -3,4 +3,3 @@
 //
 
 #import "Performance_ObjCtoCPlusPlus.h"
-#include "some_c_code.h"

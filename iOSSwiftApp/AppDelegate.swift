@@ -7,6 +7,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        let z : String = "0 1/1 2";
+        let q : String = "a b Y";
+        
+        let obj = Performance_ObjCtoCPlusPlus()
+        let res = obj.runfoo(q + "*" + z)
+        
+        print(res)
+        
         // Override point for customization after application launch.
         return true
     }
